@@ -15,10 +15,7 @@
 
     # always loaded
     'data': [
-        'views/reporting_menu.xml',
-         'report/sale_report_views.xml',
-        'report/sale_report_templates.xml',
-        'report/invoice_report_templates.xml',
+        'views/reporting_menu.xml'
 
        
    
