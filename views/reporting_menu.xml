@@ -2,8 +2,11 @@
 <odoo>
     <act_window id="action_report_task"
     name="Reporting"
-    res_model="sale.report.pivot"
+    res_model="report.analysis.sales"
     view_mode="tree" />
+ <menuitem id ="menu_reporting_task"
+    name="Reporting"
+    action="action_report_task" />
 
     <menuitem id ="menu_report_task"
     name="Reporting"
