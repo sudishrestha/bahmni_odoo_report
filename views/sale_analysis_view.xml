@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-    <record id="view_report_sales_analysis" model="ir.ui.view">
+    <record id="sales_analysis_view" model="ir.ui.view">
         <field name="name">report_sales_analysis</field>
         <field name="model">report.analysis.sales</field>
         <field name="arch" type="xml">
            
                 <sheet>
-             
+             Report Will be Displayed Here
                 </sheet>
       
         </field>
