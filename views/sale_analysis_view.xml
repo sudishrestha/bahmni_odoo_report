@@ -1,26 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <odoo>
-    <record id="sales_analysis_view" model="ir.ui.view">
-        <field name="name">report_sales_analysis</field>
-        <field name="model">report.analysis.sales</field>
-        <field name="arch" type="xml">
-<!--            
-                <sheet>
-             Report Will be Displayed Here
-                </sheet> -->
-      
-        </field>
-    </record>
+
+
+  <record id="view_tree_sales_reporting" model="ir.ui.view">
+    <field name="name">Sales Analysis</field>
+    <field name="model">report.analysis.sales</field>
+    <field name="arch" type="xml">
+    <tree>
     
-     <record id="report_connect_config_action" model="ir.actions.act_window">
-        <field name="name">Report Sales Analysis</field>
-        <field name="type">ir.actions.act_window</field>
-        <field name="res_model">report.analysis.sales</field>
-        <field name="view_mode">form</field>
-        <field name="target">inline</field>
-    </record>
-    
-    <menuitem id="report_connect_config_menu" name="report Settings" 
-        parent="bahmni_report_odoo.menu_report_config" groups="group_report_claim_manager"
-        sequence="10" action="report_connect_config_action"/>
+    </tree>
+    </field>
+  </record>
+
 </odoo>

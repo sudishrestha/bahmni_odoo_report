@@ -17,6 +17,7 @@
     'data': [
        
         'views/sale_analysis_view.xml',
+        'views/reporting_menu.xml'
        
    
     ],
