@@ -4,10 +4,10 @@
         <field name="name">report_sales_analysis</field>
         <field name="model">report.analysis.sales</field>
         <field name="arch" type="xml">
-           
+<!--            
                 <sheet>
              Report Will be Displayed Here
-                </sheet>
+                </sheet> -->
       
         </field>
     </record>
