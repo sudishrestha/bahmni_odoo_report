@@ -1,17 +1,15 @@
 <?xml version ="1.0"?>
 <odoo>
-    <act_window id="action_report_task"
-    name="Reporting"
-    res_model="report.analysis.sales"
-    view_mode="tree" />
-
-<!-- 
- <menuitem id ="menu_reporting_task"
-    name="Reporting"
-    action="action_report_task" /> -->
+  <!-- Top menu item -->
+        <menuitem id='menu_reporting' name='Reporting'  sequence="70"/>
+        <menuitem name="Purchase" parent="menu_reporting" id="menu_reporting_purchase" sequence="50" action="purchase.action_purchase_order_report_all"/>
+        <menuitem name="Reports" parent="menu_reporting" id="menu_reporting_sales" sequence="51"  action="sale.action_order_report_all"/>
+ <!-- <menuitem id ="menu_reporting_task"
+    name="Purchase Reporting"
+     /> 
 
     <menuitem id ="menu_report_task"
     name="Sale Reporting"
-    action="sale.action_order_report_all" />
+    /> -->
 
 </odoo> 
