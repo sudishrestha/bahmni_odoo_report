@@ -1,14 +1,17 @@
 <?xml version ="1.0"?>
 <odoo>
-    <act_window id="action_report_sale"
+    <act_window id="action_report_task"
     name="Reporting"
-    res_model="sale.action_order_report_all"
+    res_model="report.analysis.sales"
     view_mode="tree" />
 
-
+<!-- 
  <menuitem id ="menu_reporting_task"
     name="Reporting"
-    action="action_report_sale" />
+    action="action_report_task" /> -->
 
+    <menuitem id ="menu_report_task"
+    name="Sale Reporting"
+    action="sale.action_order_report_all" />
 
 </odoo> 
