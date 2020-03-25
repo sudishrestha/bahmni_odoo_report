@@ -1,35 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version ="1.0"?>
 <odoo>
-    
-    <!-- Top menu item -->
-        <menuitem id='menu_reporting' name='Reporting' sequence="70"/>
-        <menuitem name="Claims" parent="menu_reporting"  id="menu_reporting_title" sequence="50"/>
-        <menuitem name="Sales" parent="menu_reporting" id="menu_reporting_sales" sequence="51"/>
-        <menuitem name="Configuration" parent="menu_reporting"   id="menu_reporting_config" sequence="52"/>
-        
-    <!-- Adds Reports menu and action -->
-        
-    
-        
-    
-    
-</odoo>
-
-
-<!-- <?xml version ="1.0"?>
-<odoo>
-    <act_window id="action_report_task"
+    <act_window id="action_report_sale"
     name="Reporting"
-    res_model="report.analysis.sales"
+    res_model="sale.action_order_report_all"
     view_mode="tree" />
 
 
  <menuitem id ="menu_reporting_task"
     name="Reporting"
-    action="action_report_task" />
+    action="action_report_sale" />
 
-    <menuitem id ="menu_report_task"
-    name="Reporting"
-    action="action_report_task" />
 
-</odoo> -->
+</odoo> 
