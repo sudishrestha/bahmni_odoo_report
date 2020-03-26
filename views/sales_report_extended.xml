@@ -1,4 +1,4 @@
-  <?xml version="1.0" encoding="utf-8"?>
+<?xml version ="1.0"?>
 <odoo>
   <!-- Custom reports (aka filters) -->
     <record id="filter_sale_report_sales_funnel_inherit" model="ir.filters">
