@@ -16,6 +16,7 @@
     # always loaded
     'data': [
         'views/reporting_menu.xml',
+        'views/sales_report_extended.xml.xml'
   
     ],
 }

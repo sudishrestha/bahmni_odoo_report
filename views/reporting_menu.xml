@@ -24,12 +24,6 @@
 
             <menuitem  name="Insurance Claim summary" id="menu_reporting_claim_summary" action="bahmni_insurance_odoo.action_report_insurance_claim_summary"
         parent="menu_reporting_insurance" sequence="12"/>
-         <!-- <menuitem id="menu_report_insurance_claim_summary" name="Insurance Claim summary" action="action_report_insurance_claim_summary" parent="menu_insurance_report" sequence="3"/> -->
-
-            <!-- <menuitem  name="Insurance Claim Summary" id="menu_reporting_claim_summary" action="action_report_insurance_claim_summary_report"
-        parent="menu_reporting_insurance" sequence="12"/> -->
-
-        <!-- action_insurance_claim_summary_report -->
- 
+        
 
 </odoo> 

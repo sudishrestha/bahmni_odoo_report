@@ -1,0 +1,37 @@
+  <?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <!-- Custom reports (aka filters) -->
+    <record id="filter_sale_report_sales_funnel_inherit" model="ir.filters">
+        <field name="name">Sales Funnel Inherit</field>
+        <field name="model_id">sale.report</field>
+        <field name="context">{'group_by': ['state'], 'measures': ['price_subtotal','product_uom_qty']}</field>
+    </record>
+
+
+
+   	<!-- <record id="view_product_form_inherit" model="ir.ui.view">
+
+	        <field name="name">product.template.common.form.inherit</field>
+
+	        <field name="model">product.template</field>
+
+	        <field name="inherit_id" ref="product.product_template_form_view"/>
+
+	        <field name="arch" type="xml">
+
+	            <xpath expr="//page[1]" position="inside">
+
+	                <group>
+
+	                    <field name="model_mat"/>
+
+	                    <field name="num_ligne"/>
+
+	                </group>
+
+	            </xpath>
+
+	        </field>
+
+	    </record>  -->
+    </odoo>
