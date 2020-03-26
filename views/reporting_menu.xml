@@ -4,6 +4,8 @@
         <menuitem id='menu_reporting' name='Reporting'  sequence="70"/>
         <menuitem name="Sales" parent="menu_reporting" id="menu_reporting_sales" sequence="50"  />
         <menuitem name="Purchase" parent="menu_reporting" id="menu_reporting_purchase" sequence="51"/>
+        <menuitem name="Insurance" parent="menu_reporting" id="menu_reporting_insurance" sequence="52"/>
+
 
 
          <menuitem id="menu_reporting_purchase_report" name="Purchase Analysis" 
@@ -14,12 +16,9 @@
          <menuitem id="menu_reporting_sales_report" name="Sales Analysis" 
         parent="menu_reporting_sales"
         sequence="10"  action="sale.action_order_report_all"/>
- <!-- <menuitem id ="menu_reporting_task"
-    name="Purchase Reporting"
-     /> 
 
-    <menuitem id ="menu_report_task"
-    name="Sale Reporting"
-    /> -->
+             <menuitem id="menu_reporting_claim_report" action="bahmni_insurance_odoo.action_claim_report"
+        parent="menu_reporting_insurance" sequence="10"/>
+ 
 
 </odoo> 
