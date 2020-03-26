@@ -14,15 +14,3 @@
          </field>
     </record>
     </odoo>
-
-<!-- 
-	<record id="view_project_task_pivot_custom" model="ir.ui.view">
-   <field name="name">project.task.pivot.inherit</field>
-   <field name="model">project.task</field>
-   <field name="inherit_id" ref="view_project_task_pivot"/>
-   <field name="arch" type="xml">
-       <pivot string="Custom Project Tasks">
-           <!-- Your Custom Code Goes Here -->
-       </pivot>
-   </field>
-</record> -->
