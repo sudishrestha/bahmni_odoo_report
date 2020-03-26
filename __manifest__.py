@@ -11,12 +11,12 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-   'depends':  ['base','sale','bahmni_insurance_odoo', "mail", "bahmni_atom_feed", "bahmni_account", "account"],
+   'depends':  ['base','sale','bahmni_insurance_odoo', "mail", "bahmni_atom_feed", "bahmni_account", "account","purchase"],
 
     # always loaded
     'data': [
         'views/reporting_menu.xml',
-        'views/sales_report_extended.xml'
+        'views/report_extended.xml'
   
     ],
 }
