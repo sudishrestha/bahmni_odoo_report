@@ -17,7 +17,5 @@
     'data': [
         'views/reporting_menu.xml',
         'views/insurance_claim_summary_report.xml',
-         'report/insurance_claim_summary_report.xml',
-        'report/report_insurance_claim_summary_template.xml'
     ],
 }
