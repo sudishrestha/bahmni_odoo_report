@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    -->
+    
+    <data>
+        <report 
+            id="action_report_insurance_claim_summary_report"
+            model="bahmni_insurance_odoo.insurance_claim_summary" 
+            report_type="qweb-pdf" 
+            string="Insurance Claim Summary"
+        />
+    </data>
+    
+</odoo>
