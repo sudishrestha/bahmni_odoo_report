@@ -18,6 +18,14 @@
 
              <menuitem  name="Claim Report"  id="menu_reporting_claim_report" action="bahmni_insurance_odoo.action_claim_report"
         parent="menu_reporting_insurance" sequence="10"/>
+
+            <menuitem  name="Claim Report By Patients" id="menu_reporting_patient_report" action="bahmni_insurance_odoo.action_claim_patient_report"
+        parent="menu_reporting_insurance" sequence="11"/>
+
+            <menuitem  name="Insurance Claim Summary" id="menu_reporting_claim_summary" action="bahmni_insurance_odoo.action_insurance_claim_summary_report"
+        parent="menu_reporting_insurance" sequence="12"/>
+
+        <!-- action_insurance_claim_summary_report -->
  
 
 </odoo> 
