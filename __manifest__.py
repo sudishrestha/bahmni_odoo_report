@@ -11,11 +11,13 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-   'depends':  ['base','sale','bahmni_insurance_odoo'],
+   'depends':  ['base','sale','bahmni_insurance_odoo', "mail", "bahmni_atom_feed", "bahmni_account", "account"],
 
     # always loaded
     'data': [
         'views/reporting_menu.xml',
-        'views/insurance_claim_summary_report.xml'
+        'views/insurance_claim_summary_report.xml',
+         'report/insurance_claim_summary_report.xml',
+        'report/report_insurance_claim_summary_template.xml'
     ],
 }
