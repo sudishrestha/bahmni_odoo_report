@@ -1,6 +1,5 @@
 <?xml version ="1.0"?>
 <odoo>
-  <!-- Top menu item -->
         <menuitem id='menu_reporting' name='Reporting'  sequence="70"/>
         <menuitem name="Sales" parent="menu_reporting" id="menu_reporting_sales" sequence="50"  />
         <menuitem name="Purchase" parent="menu_reporting" id="menu_reporting_purchase" sequence="51"/>
@@ -17,7 +16,7 @@
         parent="menu_reporting_sales"
         sequence="10"  action="sale.action_order_report_all"/>
 
-             <menuitem id="menu_reporting_claim_report" action="bahmni_insurance_odoo.action_claim_report"
+             <menuitem  name="Claim Report"  id="menu_reporting_claim_report" action="bahmni_insurance_odoo.action_claim_report"
         parent="menu_reporting_insurance" sequence="10"/>
  
 
