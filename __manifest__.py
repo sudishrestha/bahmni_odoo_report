@@ -16,5 +16,8 @@
     # always loaded
     'data': [
         'views/reporting_menu.xml',
+        'report/insurance_claim_summary_report.xml',
+        'report/report_insurance_claim_summary_template.xml',
+        'wizard/claim_summary.xml',
     ],
 }
